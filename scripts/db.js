@@ -32,7 +32,7 @@ export const Productos=[
         img:"src/Productos/d.jpg"
     },
     {
-        // --> Atributos
+       
         Codigo:5,
         Nombre:"Pantalon",
         Precio:100.000,
