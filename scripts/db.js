@@ -29,7 +29,7 @@ export const Productos=[
         Nombre:"Pantalon",
         Precio:5.000,
         Stock:1,
-        img:"src/Productos/d.jpg"
+        img:"./src/Productos/d.jpg"
     },
     {
        
