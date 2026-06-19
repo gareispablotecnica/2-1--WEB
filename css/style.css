@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    /* Altura */
+    height: 85px;
+    display: flex;
+    /* Divide en 2 la pantalla */
+    justify-content: space-between;
+}
+
+.Logo {
+    /* Ancho */
+    width: 60px;
+    /* Alto */
+    height: 60px;
+    background-image: url('../src/a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    animation:Logotipo 10s ease-in-out infinite ;
+}
+
+@keyframes Logotipo {
+    from {
+        background-image: url('../src/b.jpg');
+        filter: drop-shadow(1px 1px 1px black);
+        transform: scale(1.0);
+    }
+
+    to {
+        background-image: url('../src/a.jpg');
+        filter: drop-shadow(1px 1px 1px black);
+        transform: scale(0.9);
+    }
+}
+
+
+.menu {
+    /* Interlineado */
+    line-height: 75px;
+    /* Margen Derecho */
+    margin-right: 10px;
+}
+
+.menu a {
+    /* Margen Derecho */
+    margin-right: 10px;
+    /* Tamaño de Fuente */
+    font-size: 18px;
+    /* Quitar las Lineas de Decoracion */
+    text-decoration: none;
+    /* Color de Fuente */
+    color: #2C3947;
+}
+
+.btncon {
+    background: #2C3947;
+    /* Relleno */
+    padding: 10px;
+    color: white !important;
+    /* Redondeo de las Esquinas */
+    border-radius: 10px;
+    /* Aplicamos la Animacion */
+    animation:BotonContactos 10s ease-in-out infinite ;
+}
+
+
+@keyframes BotonContactos {
+    from{
+        background: #8e0100;
+    }
+    to{
+        background: #feb81c;
+    }
+}
+
+
+
+
+.btng {
+    padding-bottom: 3px;
+}
+
+.btng:hover {
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #ffff, #2C3947)1;
+}
+
+.carousel-inner img{
+    /* Alto */
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.productoscontenedor{
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+}
+
+.Cards{
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+.productoscontenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    background: #f5f5f5;
+}
+
+.Cards {
+    width: 280px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,.1);
+    transition: .3s;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Cards:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,.2);
+}
+
+.Cards img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.Cards h1 {
+    font-size: 28px;
+    margin: 20px 0 10px;
+    color: #222;
+}
+
+.Cards h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.Cards h3 {
+    color: #f5a623;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.Cards h4 {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.Cards button {
+    border: none;
+    background: #f5a623;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.Cards button:hover {
+    background: #d99000;
+}
