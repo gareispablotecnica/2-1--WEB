@@ -5,7 +5,7 @@ export const Productos=[
         Nombre:"Pantalon",
         Precio:25.000,
         Stock:10,
-        img:"../src/Productos/a.jpg"
+        img:"src/Productos/a.jpg"
     },
     {
         // --> Atributos
@@ -13,7 +13,7 @@ export const Productos=[
         Nombre:"Pantalon",
         Precio:30.000,
         Stock:5,
-        img:"../src/Productos/b.jpg"
+        img:"src/Productos/b.jpg"
     },
     {
         // --> Atributos
@@ -21,7 +21,7 @@ export const Productos=[
         Nombre:"Pantalon",
         Precio:35.000,
         Stock:25,
-        img:"../src/Productos/c.jpg"
+        img:"src/Productos/c.jpg"
     },
     {
         // --> Atributos
@@ -29,7 +29,7 @@ export const Productos=[
         Nombre:"Pantalon",
         Precio:5.000,
         Stock:1,
-        img:"../src/Productos/d.jpg"
+        img:"src/Productos/d.jpg"
     },
     {
         // --> Atributos
@@ -37,6 +37,6 @@ export const Productos=[
         Nombre:"Pantalon",
         Precio:100.000,
         Stock:2,
-        img:"../src/Productos/e.jpg"
+        img:"src/Productos/e.jpg"
     }
 ]
